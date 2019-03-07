@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans', serif;
+
+    background-image: linear-gradient(to right, rgba(216, 230, 231, 0.678), rgba(26, 143, 211, 0.473));
+    margin-bottom: 5%;
+}
+
+
+
+.row:after {
+    margin-top: 2%;
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.column {
+    float: left;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.right {    
+    padding: 10px;
+    width: 70%;
+    background-image: url("https://i.imgur.com/EyUtFW2.png");
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px dotted black;
+    margin: 20px;
+}
+
+.left {
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    /* border-right: 3px solid black;  */
+    width: 20%;
+}
+
+.section{
+    margin: 10px;
+    padding: 10px;
+    
+    border: 2px dotted black;
+    background-image: url("https://i.imgur.com/tXB3IaM.png");}
+
+input{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+table tr th{
+    /* padding: 10px; */
+    padding-right: 40px;
+}
